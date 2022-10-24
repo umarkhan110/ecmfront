@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+  margin:0px 0px;
+ 
+  }
+   .header ul{
+    list-style: none;
+    display: flex;
+}
+.header ul li{
+    font-size: 13px;
+    
+    padding-right: 25px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.ul1 span{
+    font-size: 25px;
+font-weight: 650;
+position: relative;
+top:-10px;
+letter-spacing: 2px;
+}
+
+/* Home CSS */
+.main{
+    box-sizing: border-box;
+    width:100vw;
+}
+.page1{
+   background-image: url(./images/watches-1.jpg);
+    margin:0px 100px;
+    margin-top: -10px;
+    height: 75vh;
+    line-height: 7px;
+}
+.page1 h2{
+    position: relative;
+    top: 10rem;
+    left: 10rem;
+}
+.page1 h2 button{
+    border: none;
+    color: #969292;
+    background:transparent;
+    border-bottom:  2px solid #969292;
+    padding: 0px;
+}
+.page1 h2 button:hover{
+    border-bottom:  0px solid #969292;
+}
+.page22{
+    width:87vw;
+    display: grid;
+    grid-template: 360px / auto auto auto auto;
+    margin-left: 100px;
+}
+.page2{
+    width:230px;
+    height:350px;
+    padding-top: 10px;
+    color: #5c5b5b;
+}
+.page2 img{
+    width:230px;
+    height:250px;
+}
+.nampr{
+display: flex;
+justify-content: space-between;
+font-weight: 500;
+}
+.nampr1{
+    text-transform: uppercase; 
+}
+.page3{
+    display: flex;
+}
+.page3 img{
+    width:400px;
+}
+
+ /* CSS FOR LOGIN login.css */
+
+
+  
+ *{
+    margin:0px;
+    padding:0px;
+    }
+    .mainl{
+        position: relative;
+        top:70px;
+        width:350px;
+        height:400px;
+        text-align: center;
+        padding-top: 40px;
+        background-color:rgba(60, 62, 88, 0.15);
+        box-shadow: rgb(168, 167, 167) 2px 2px 14px 5px;
+           }
+    h3{
+        font-size: x-large;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .one{
+        margin-top: 60px;
+        width:70%;
+        border-style:none ;
+        height: 40px;
+        padding-left: 20px;
+        border-radius: 5px;
+    }
+    .two{
+     margin-top:20px;
+     width:70%;
+     border-style:none ;
+     height: 40px;
+     padding-left: 20px;
+     border-radius: 5px;
+    }
+    .signin_btn{
+        display: flex;
+        justify-content: space-between;
+        margin: 70px 50px;
+        text-decoration: none;
+    
+    }
+    .signin_btn a{
+        text-decoration: none;
+        color: black;
+    }
+    .signin_btn button{
+        width:100px;
+        height: 30px;
+        border-radius: 5px;
+        border-style: none;
+        background-color:rgba(93, 118, 228, 0.959);
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  
+   
+  /* Signup CSS */
+  .mains_s{
+    display: flex;
+    justify-content: center; 
+}
+.mains{
+    position: relative;
+    top:55px;
+    width:580px;
+    height:450px;
+    text-align: center;
+    padding-top: 40px;
+    background-color:rgba(60, 62, 88, 0.15);
+    box-shadow: rgb(168, 167, 167) 2px 2px 14px 5px;
+    }  
+    .sflname{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .sname{
+        width:50%;
+        border-style:none ;
+        height: 38px;
+        padding-left: 20px;
+        border-radius: 5px;
+    }
+    .gname{
+        margin-top: 20px;
+        margin-left: 23px;
+        width:85%;
+        border-style:none ;
+        height: 38px;
+        padding-left: 20px;
+        border-radius: 5px;
+        
+    }
+    .spass{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .altr{
+        width: 110%;
+       position: relative;
+       left: 60px;
+       background-color:#f0a0a0;
+      border-radius: 3px;
+      padding:8px ;
+    }
+    .vcaltr{
+      width: 70%;
+     position: relative;
+     left: 30px;
+     background-color:#f0a0a0;
+    border-radius: 3px;
+    padding:8px ;
+  }
+    .alertemail{
+      width: 40%;
+     position: relative;
+     left: 170px;
+     background-color:#f0a0a0;
+    border-radius: 3px;
+    padding:8px ;
+  }
+  .signup_btn{
+      display: flex;
+      justify-content: space-between;
+      margin: 70px 80px;
+      text-decoration: none;
+  }
+  .signup_btn a{
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+      margin-top: -4px;
+  }
+  .signup_btn a:hover{
+      text-decoration: none;
+      color: rgb(29, 38, 160);
+      font-size: 18px;
+      margin-top: -4px;
+  }
+  .signup_btn button{
+      margin-top: -10px;
+      width:100px;
+      height: 30px;
+      border-radius: 5px;
+      border-style: none;
+      background-color:rgba(93, 118, 228, 0.959);
+      color: white;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }

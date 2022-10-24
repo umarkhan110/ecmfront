@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    
+    font-size: 23px;
+}
+.navbar1{
+    padding:12px;
+    width: 180px;
+    background-color:#ffd333;
+   
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    color: #212529;
+    
+
+}
+.sidebar{
+   
+    background-color: rgb(54, 54, 54);
+    color: white;
+    width: 200px;
+    height:100vh;
+}
+.sidebar ul{
+    padding: 0px 30px;
+    list-style: none;
+}
+.sidebar ul li{
+    padding-top: 20px;
+}
+.sidebar ul li a{
+text-decoration: none;
+color: white;
+}
+
+/* Addproduct CSS */
+
+.main{
+    position: relative;
+    left:220px;
+    top: -600px;  
+}
+.mainform{
+    width: 800px;
+    padding: 20px;
+    position: relative;
+    left:20px;
+    top: 20px;
+    border: 2px solid gray;
+}
+.mainform1 label{
+   font-weight: 500;
+}
+.mainform1 table tr td{
+    padding-top: 20px;
+}
+.mainform1 td input{
+
+padding: 10px;
+}
+.main button{
+padding: 10px;
+background-color:#ffd333;
+border:none;
+font-weight:bold;
+}
+.main button:hover{
+    transform: scale(1.1);
+}
+/* Dashborad CSS */
+
+.dashboard{
+    width: 800px;
+    padding: 15px;
+    position: relative;
+    left:20px;
+    top: 20px;
+    border: 1px solid gray;
+}
+.dashboard table th{
+    padding-right: 120px;
+}
+.dashboard table td {
+    padding-right: 80px;
+    width:100px;
+    height: 5vh;
+    overflow: hidden;
+}
